@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:background="@color/white_A700">
+
+    <LinearLayout android:id="@+id/linearUserprofile"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical" style="@style/groupStylewhite_1">
+        <FrameLayout android:id="@+id/frameStack"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_155pxv"
+            android:layout_width="@dimen/_163pxh"
+            android:paddingBottom="@dimen/_18pxv"
+            android:paddingEnd="@dimen/_15pxh"
+            android:paddingStart="@dimen/_15pxh"
+            android:paddingTop="@dimen/_18pxv" style="@style/groupStylegray_50">
+            <ImageView android:id="@+id/imageSparePart"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_120pxh"
+                android:layout_width="@dimen/_133pxh"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription"
+                android:background="@drawable/img_1057312_a1_670x581"/>
+        </FrameLayout>
+
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtSparepart"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            style="@style/txtPoppinsmedium11_1" android:text="@string/msg_steering_wheel_covers"/>
+
+        <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_2pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            style="@style/txtPoppinssemibold11_1"
+            android:text="@string/lbl_140_omr"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnAddToCart"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_3pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_3pxv" android:singleLine="true"
+                    android:textAllCaps="false" style="@style/btnSolid"
+                    android:text="@string/lbl_add_to_cart"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/img_home_home_alt_fill"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_spare_parts"
+        android:icon="@drawable/img_output_onlinegiftools"
+        android:title="Spare Parts" />
+    <item
+        android:id="@+id/navigation_request"
+        android:icon="@drawable/img_close_white_a700"
+        android:title="Request" />
+    <item
+        android:id="@+id/navigation_workshop"
+        android:icon="@drawable/img_car_repair_1"
+        android:title="Workshop" />
+    <item
+        android:id="@+id/navigation_chats"
+        android:icon="@drawable/img_bubble_chat_1"
+        android:title="Chats" />
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/amber_500_02">
+
+    <TextView
+        android:id="@+id/txtAutoassist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_8pxv"
+        android:layout_marginBottom="@dimen/_2pxv"
+        android:layout_weight="60"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/lbl_auto_assist"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        style="@style/txtPoppinsbold16"
+        tools:text="@string/lbl_auto_assist"/>
+
+    <!-- You can add other views here like TextView for user name, email, etc. -->
+
+</LinearLayout>

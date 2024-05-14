@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">project_i212582_i210607</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_whatsapp_number">Whatsapp Number</string>
+  <string name="msg_thank_you_for_registering">Thank you for registering 
+with Mechanics</string>
+  <string name="lbl_email_address">Email address</string>
+  <string name="lbl_upload_mm">Upload MM</string>
+  <string name="msg_address_arabic">Address (Arabic)</string>
+  <string name="lbl_home">Home</string>
+  <string name="msg_don_t_have_an_account">Don\u2019t  have an account?</string>
+  <string name="msg_already_have_an">Already have an account?</string>
+  <string name="lbl_description">Description</string>
+  <string name="lbl_75_omr">PKR 7500</string>
+  <string name="lbl_968_1234567896">+968 1234567896</string>
+  <string name="lbl_province">Province</string>
+  <string name="lbl_35_omr">PKR 3500</string>
+  <string name="lbl_log_in">Log In</string>
+  <string name="lbl_muscat_oman">Muscat, Oman</string>
+  <string name="lbl_registration">Registration</string>
+  <string name="msg_select_governaorate">Select Governaorate</string>
+  <string name="lbl_chats">Chats</string>
+  <string name="msg_choose_classification">Choose Classification</string>
+  <string name="lbl_upto_25_off">Upto 25% off</string>
+  <string name="lbl_lght_bulbs">Lght Bulbs</string>
+  <string name="lbl_sms">SMS</string>
+  <string name="lbl_mobile">Mobile</string>
+  <string name="msg_forgot_password">Forgot Password?</string>
+  <string name="lbl_name">Name</string>
+  <string name="lbl_upto_30_off">Upto 30% off</string>
+  <string name="lbl_cancel">CANCEL</string>
+  <string name="lbl_muhammed_suhail">MUHAMMED SUHAIL</string>
+  <string name="lbl_register">Register</string>
+  <string name="lbl_submit">SUBMIT</string>
+  <string name="msg_steering_wheel_knobs">Steering wheel knobs</string>
+  <string name="lbl_brands">Brands</string>
+  <string name="msg_email_optional">Email (Optional)</string>
+  <string name="lbl_banner_image">Banner image</string>
+  <string name="lbl_recently_added">Recently added</string>
+  <string name="lbl_nissan">Nissan</string>
+  <string name="lbl_select_province">Select Province</string>
+  <string name="msg_steering_wheel_covers">Steering wheel covers</string>
+  <string name="msg_popular_suppliers">Popular Suppliers</string>
+  <string name="lbl_email">Email</string>
+  <string name="lbl_log_in2">LOG IN</string>
+  <string name="lbl_toyota">Toyota</string>
+  <string name="lbl_success">Success!</string>
+  <string name="lbl_add_to_cart">ADD TO CART</string>
+  <string name="msg_popular_workshop">Popular Workshop</string>
+  <string name="lbl_logo">Logo</string>
+  <string name="lbl_request">Request</string>
+  <string name="lbl_140_omr">PKR 16000</string>
+  <string name="lbl_classification">Classification</string>
+  <string name="lbl_lorem_ipsum">Lorem ipsum</string>
+  <string name="lbl_upto_50_off">Upto 50% off</string>
+  <string name="msg_workshop_registration">Workshop Registration</string>
+  <string name="lbl_governorate">Governorate</string>
+  <string name="lbl_ok">OK</string>
+  <string name="lbl_spare_parts">Spare Parts</string>
+  <string name="msg_preferred_method">Preferred method for contacting with user 
+credential or OTP</string>
+  <string name="lbl_password">Password</string>
+  <string name="msg_lorem_ipsum_dummy">Lorem ipsum dummy text</string>
+  <string name="lbl_workshop">Workshop</string>
+  <string name="lbl_hyundai">Hyundai</string>
+  <string name="msg_auto_king_workshop">Auto King Workshop</string>
+  <string name="lbl_address">Address</string>
+  <string name="lbl_login_here">Login here</string>
+  <string name="lbl_demo_gmail_com">demo@gmail.com</string>
+  <string name="lbl_auto_assist">Auto-Assist</string>
+  <string name="lbl_upload_cr">Upload CR</string>
+  <string name="msg_username_mobile">Username (Mobile number) </string>
+  <string name="msg_description_arabic">Description (Arabic)</string>
+  <string name="msg_username_mobile2">Username (Mobile number)</string>
+  <string name="open_drawer">Open navigation drawer</string>
+  <string name="close_drawer">Close navigation drawer</string>
+  <string name="house_49_street_13_sector_a_dha_2_islamabad">House#49, Street#13, Sector A, DHA#2, Islamabad</string>
+  <string name="supplier_registration">Supplier Registration</string>
+  <string name="add_spare_part">Add Spare Part</string>
+  <string name="image">Image</string>
+  ng>
+  <string name="lbl_share">Share</string>
+
+  <string name="lbl_logout">Logout</string>
+  <string name="lbl_volkswagon">VolksWagon</string>
+
+  <string name="msg_which_car_do_you">Which car do you drive?</string>
+  <string name="lbl_inquiry_history">Inquiry History</string>
+  <string name="msg_register_supplier">Register Supplier</string>
+  <string name="lbl_workshop_login">Workshop Login</string>
+  <string name="msg_select_manufacture">Select Manufacture</string>
+  <string name="msg_register_workshop">Register Workshop</string>
+  <string name="lbl_supplier_login">Supplier Login</string>
+  <string name="msg_suhail_greeniitc_com">suhail@greeniitc.com</string>
+  <string name="lbl_contact_us">Contact Us</string>
+  <string name="lbl_request_parts">Request Parts</string>
+  <string name="msg_road_side_assistance">Road side assistance</string>
+
+  <string name="lbl_request_service">Request Service</string>
+  <string name="lbl_profile">Profile</string>
+  <string name="lbl_privacy_policy">Privacy  Policy</string>
+  <string name="lbl_update_profile">Update Profile</string>
+  <string name="lbl_968_12345678">+968 12345678</string>
+  <string name="lbl_edit_profile">Edit Profile</string>
+    <string name="add_parts">Add Parts</string>
+    <string name="spare_part_image">Spare Part Image</string>
+  <string name="spare_part_name">Spare Part Name</string>
+  <string name="price">Price</string>
+  <string name="_12500">12500</string>
+  <string name="add">Add</string>
+    <string name="popular_workshops">Popular Workshops</string>
+    <string name="save">Save</string>
+    <string name="edit_spare_part">Edit Spare Part</string>
+
+
+  <string name="lbl_pkr_1700">PKR 1700</string>
+  <string name="msg_dft_water_pump_aw4126">DFT Water pump AW4126...</string>
+  <string name="lbl_filter">Filter</string>
+  <string name="lbl_pkr_20000">PKR 20000</string>
+  <string name="msg_hyundai_i20">Hyundai - i20 - 2021</string>
+  <string name="lbl_25">25%</string>
+  <string name="lbl_change_car">Change Car</string>
+  <string name="msg_avon_aw4128_engine">AVON AW4128 Engine Wat..</string>
+  <string name="msg_avon_aw4108_engine">AVON AW4108 Engine Pump.</string>
+  <string name="msg_enter_the_service2">Enter the service details</string>
+  <string name="msg_transmission_parts">Transmission Parts</string>
+  <string name="msg_add_another_service">Add another Service</string>
+  <string name="lbl_body_parts">Body Parts </string>
+  <string name="msg_mechanical_parts">Mechanical Parts</string>
+  <string name="lbl_11_45_am">11:45 AM</string>
+  <string name="lbl_10">10%</string>
+  <string name="msg_electrical_parts">Electrical Parts</string>
+  <string name="lbl_location">LOCATION</string>
+  <string name="lbl_engine_parts">Engine Parts</string>
+  <string name="lbl_pkr_22000">PKR 22000</string>
+  <string name="lbl_select_region">Select Region</string>
+  <string name="lbl_pkr_4000">PKR 4000</string>
+  <string name="msg_radiator_fan_motor">Radiator fan motor asse...</string>
+  <string name="lbl_request_a_quote">Request a Quote</string>
+  <string name="lbl_pkr_12000">PKR 12000</string>
+  <string name="lbl_service_details">Service details</string>
+  <string name="lbl_0_15">0:15</string>
+  <string name="msg_quotation_request">Quotation Request</string>
+  <string name="msg_the_service_you">The service you are looking for and it\u2019s picture if any</string>
+  <string name="msg_a_c_systems_parts">A/C Systems Parts</string>
+  <string name="lbl_upload_mulkiya">Upload Mulkiya</string>
+  <string name="lbl_interior_parts">Interior Parts</string>
+  <string name="lbl_pkr_230">PKR 230</string>
+  <string name="lbl_exterior_parts">Exterior Parts</string>
+  <string name="lbl_pkr_1870">PKR 1870</string>
+  <string name="lbl_search_parts">Search Parts</string>
+  <string name="msg_enter_the_service">Enter the service</string>
+
+  <string name="lbl_pkr_163">PKR 163</string>
+  <string name="msg_request_sent_successfully">Request sent successfully</string>
+  <string name="msg_engine_components">Engine Components</string>
+  <string name="lbl_dg_automotive">DG Automotive</string>
+  <string name="lbl_1">1</string>
+  <string name="lbl_part_type">Part Type</string>
+  <string name="lbl_discount">Discount:</string>
+  <string name="lbl_supplier">Supplier</string>
+  <string name="lbl_view">VIEW</string>
+  <string name="msg_motospot_workshop">Motospot Workshop</string>
+  <string name="lbl_cr_board">CR &amp; BOARD</string>
+  <string name="lbl_request_inquiry">Request Inquiry</string>
+  <string name="lbl_volkswagen">Volkswagen</string>
+  <string name="msg_latha_arts_workshop">Latha Arts Workshop</string>
+  <string name="lbl_brand">Brand</string>
+  <string name="lbl_royal_auto">Royal Auto</string>
+  <string name="lbl_workshops">Workshops</string>
+  <string name="lbl_view_supplier">View Supplier</string>
+  <string name="lbl_total">Total:</string>
+  <string name="lbl_map_view">Map View</string>
+  <string name="lbl_cart">Cart</string>
+  <string name="lbl_0_00">0.00</string>
+  <string name="msg_we_are_specialised">We are specialised in</string>
+  <string name="lbl_pkr_57000">PKR 57000</string>
+  <string name="msg_dft_water_pump_aw41262">DFT Water pump AW4126  for Volkswagen polo</string>
+  <string name="msg_muscat_sulatanate">Muscat, Sulatanate of Oman</string>
+  <string name="lbl_original">Original</string>
+  <string name="lbl_price">Price:</string>
+
+  <string name="lbl_buy_now">BUY NOW</string>
+  <string name="lbl_quantity">Quantity:</string>
+  <string name="lbl_rremove">RREMOVE</string>
+  <string name="msg_adonz_automotive">Adonz Automotive</string>
+  <string name="lbl_product_details">Product Details</string>
+  <string name="msg_lorem_ipsum_is_simply2">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."</string>
+  <string name="lbl_sub_total">Sub Total:</string>
+  <string name="msg_lorem_ipsum_is_simply">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500."</string>
+  <string name="remove">Remove</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="book_service">Book Service</string>
+    <string name="buy_spare_parts">Buy Spare Parts</string>
+
+    <string-array name="classification_options">
+    <item>Engine Parts</item>
+    <item>Body Parts</item>
+    <item>Electrical Parts</item>
+    <item>Mechanical Parts</item>
+    <item>Transmission Parts</item>
+    <item>A/C Systems Parts</item>
+    <item>Interior Parts</item>
+    <item>Exterior Parts</item>
+
+  </string-array>
+
+  <string-array name="initial_price_range_value">
+    <item>0</item>
+    <item>100000</item>
+  </string-array>
+
+
+</resources>

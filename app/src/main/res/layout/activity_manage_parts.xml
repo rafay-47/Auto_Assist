@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout android:id="@+id/linearColumnarrowDownOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <androidx.appcompat.widget.Toolbar
+            android:gravity="center_horizontal"
+            android:id="@+id/toolbarToolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp" style="@style/groupStyleamber_500">
+            <LinearLayout android:id="@+id/linearRowarrowdown"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageArrowdownOne"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrow_down"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrow_down"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtSpareparts"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@string/lbl_spare_parts"
+                    style="@style/txtPoppinssemibold18"/>
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout android:gravity="center_horizontal"
+            android:id="@+id/frameStackrewindOne"
+            android:layout_height="wrap_content" android:layout_width="match_parent">
+
+            <LinearLayout android:id="@+id/linearColumnrewind"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_17pxv"
+                android:paddingEnd="@dimen/_13pxh"
+                android:paddingStart="@dimen/_13pxh"
+                android:paddingTop="@dimen/_17pxv" style="@style/groupStylewhite_1">
+                <LinearLayout android:gravity="center_vertical"
+                    android:id="@+id/linearRowrewindOne"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnAddSpareParts"
+                        android:layout_height="@dimen/_40pxh"
+                        android:layout_width="wrap_content"
+                        android:paddingEnd="@dimen/_17pxh"
+                        android:paddingStart="@dimen/_17pxh"
+                        android:singleLine="true"
+                        android:text="Add Spare Parts"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/amber_500_02"
+                        style="@style/btnSolidRounded" />
+                </LinearLayout>
+                <View android:background="@color/blue_gray_100"
+                    android:id="@+id/lineLinesixOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_17pxv" android:layout_width="@dimen/_398pxh"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/ManagePartsRecyclerView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_35pxv"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="match_parent"
+                    />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

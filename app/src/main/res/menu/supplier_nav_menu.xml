@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_parts"
+            android:title="Add Parts"
+            android:icon="@drawable/img_request_parts_1"/>
+
+        <item
+            android:id="@+id/nav_manage_parts"
+            android:title="Manage Parts"
+            android:icon="@drawable/img_edit"/>
+
+        <item
+            android:id="@+id/nav_view_parts"
+            android:title="View Parts"
+            android:icon="@drawable/img_nav_spare_parts"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/baseline_logout_24"/>
+    </group>
+
+</menu>

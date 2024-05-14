@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    style="@style/groupStylewhite_A700">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_gravity="top|center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:contentInsetStart="0dp" style="@style/groupStyleamber_500_4">
+                <LinearLayout android:gravity="center_vertical"
+                    android:id="@+id/linearRowoutputOne"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_23pxh"
+                    android:layout_marginStart="@dimen/_23pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:weightSum="100"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20">
+                        <ImageView android:id="@+id/imageOutputOne"
+                            android:layout_gravity="center_vertical"
+                            android:layout_height="@dimen/_35pxh"
+                            android:layout_width="@dimen/_35pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_output_onlinegiftools"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_output_onlinegiftools"/>
+                    </FrameLayout>
+                    <TextView
+                        android:id="@+id/txtAutoassist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_marginBottom="@dimen/_2pxv"
+                        android:layout_weight="60"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="Requests"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        style="@style/txtPoppinsbold16"
+                        />
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35pxh"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20">
+
+                        <ImageView
+                            android:id="@+id/profilePic"
+                            android:layout_width="@dimen/_35pxh"
+                            android:layout_height="@dimen/_30pxh"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="0dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/baseline_person_24"
+                            android:backgroundTint="@color/white"
+                            tools:ignore="ContentDescription"
+                            />
+                        <ImageView
+                            android:id="@+id/cart"
+                            android:layout_height="@dimen/_35pxh"
+                            android:layout_width="@dimen/_35pxh"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="0dp"
+                            android:scaleType="fitXY"
+                            android:background="@drawable/img_shopping_cart_5"
+                            tools:ignore="ContentDescription"
+                            style="@style/txtPoppinsbold12"
+                            />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:id="@+id/linearColumnviewOne"
+                android:layout_marginTop="@dimen/_10pxh"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent" android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="@dimen/_10pxv" />
+            </LinearLayout>
+
+</LinearLayout>

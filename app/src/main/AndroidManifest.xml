@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp"
+        tools:targetApi="31">
+
+
+
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+
+
+
+
+
+
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_background" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/amber_500_02" />
+
+
+
+
+
+
+
+        <activity android:name=".Home" android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:exported="true"/>
+        <activity android:name=".Register" android:exported="true"/>
+        <activity android:name=".Login" android:exported="true"/>
+        <activity android:name=".WorkshopRegistration" android:exported="true"/>
+        <activity android:name=".SupplierRegistration" android:exported="true"/>
+        <activity android:name=".Profile" android:exported="true"/>
+        <activity android:name=".SupplierMenu" android:exported="true"/>
+        <activity android:name=".AddSparePart" android:exported="true"/>
+        <activity android:name=".ManageParts" android:exported="true"/>
+        <activity android:name=".EditSparePart" android:exported="true"/>
+        <activity android:name=".SparePartsCategories" android:exported="true"/>
+        <activity android:name=".ListSpareParts" android:exported="true"/>
+        <activity android:name=".Cart" android:exported="true"/>
+        <activity android:name=".ListWorkshops" android:exported="true"/>
+        <activity android:name=".WorkshopDetail" android:exported="true"/>
+        <activity android:name=".ServiceRequestDetails" android:exported="true"/>
+        <activity android:name=".ServicesMenu" android:exported="true"/>
+        <activity android:name=".RoadSideAssistance" android:exported="true"/>
+        <activity android:name=".WorkshopDashboard" android:exported="true"/>
+        <activity android:name=".RoadSideAssistanceList" android:exported="true"/>
+        <activity android:name=".WorkshopBookings" android:exported="true"/>
+        <activity android:name=".ChatsList" android:exported="true"/>
+        <activity android:name=".ChatBox" android:exported="true"/>
+        <activity android:name=".OrdersList" android:exported="true"/>
+        <activity android:name=".BookingsList" android:exported="true"/>
+
+    </application>
+
+</manifest>

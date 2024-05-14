@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="200dp"
+    android:layout_width="200dp" android:orientation="vertical"
+    android:padding="10dp"
+    style="@style/groupStyleamber_500_02cornerRadius">
+    <LinearLayout android:id="@+id/linearColumncheckmark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp">
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtSuccess"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            style="@style/txtPoppinsmedium25" android:text="Cart!"/>
+
+        <TextView
+            android:id="@+id/txtPrice"
+            style="@style/txtPoppinssemibold11_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Cart!" />
+    </LinearLayout>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtThankyoufor"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4pxv"
+            android:layout_width="match_parent"
+            android:text="Are you sure you want to add this item to cart?"
+            style="@style/txtPoppinsmedium14_1" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnOk"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginBottom="@dimen/_2pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_12pxv"
+            android:layout_width="wrap_content"
+            android:paddingBottom="@dimen/_5pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_5pxv"
+            android:singleLine="true" android:text="Add To Cart"
+            android:textAllCaps="false"
+            style="@style/btnSolidRounded_11" />
+
+
+
+</LinearLayout>
+

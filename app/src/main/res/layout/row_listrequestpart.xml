@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLOGIN"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    style="@style/groupStylewhite_A700">
+
+    <LinearLayout android:id="@+id/linearColumn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_20pxv"
+        android:paddingEnd="@dimen/_33pxh"
+        android:paddingStart="@dimen/_33pxh"
+        android:paddingTop="@dimen/_20pxv" style="@style/groupStylecornerRadius">
+        <ImageView android:id="@+id/imageRequestImage"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_131pxh"
+            android:layout_width="@dimen/_292pxh"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_request_parts_1"
+            tools:ignore="ContentDescription" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnRequestButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_48pxv"
+            android:layout_marginBottom="@dimen/_4pxv"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="@dimen/_287pxh"
+            android:paddingBottom="@dimen/_10pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_10pxv" android:singleLine="true"
+            android:text="@string/lbl_request_parts"
+            android:textAllCaps="false"
+            style="@style/btnGradientRounded" />
+    </LinearLayout>
+</LinearLayout>

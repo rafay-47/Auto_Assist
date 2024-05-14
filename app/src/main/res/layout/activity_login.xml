@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLOGIN"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    style="@style/groupStylewhite_A700">
+        <FrameLayout android:gravity="center_horizontal"
+            android:id="@+id/frameStackview"
+            android:layout_height="match_parent" android:layout_width="match_parent">
+            <LinearLayout android:id="@+id/linearColumnview"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_94pxv"
+                android:paddingEnd="@dimen/_107pxh"
+                android:paddingStart="@dimen/_107pxh"
+                android:paddingTop="@dimen/_94pxv" style="@style/groupStylewhite_1">
+                <View android:id="@+id/viewView"
+                    android:layout_height="@dimen/_678pxh" android:layout_width="@dimen/_26pxh"/>
+                <ImageView android:id="@+id/imageApple512oneOne"
+                    android:layout_height="@dimen/_26pxh"
+                    android:layout_width="@dimen/_26pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_apple_512_1"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_apple_512_1"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearColumnviewOne"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_30pxv"
+                android:paddingTop="@dimen/_30pxv" style="@style/groupStyleamber_500_02">
+                <androidx.appcompat.widget.Toolbar
+                    android:gravity="center_horizontal"
+                    android:id="@+id/toolbarToolbar"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" app:contentInsetStart="0dp">
+                    <ImageView android:id="@+id/imageImage"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_395pxh"
+                        android:layout_marginStart="@dimen/_22pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_group"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_group"/>
+                </androidx.appcompat.widget.Toolbar>
+                <View android:id="@+id/viewViewOne"
+                    android:layout_height="@dimen/_114pxh" android:layout_width="@dimen/_72pxh"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLogin"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    style="@style/txtPoppinsbold24" android:text="@string/lbl_log_in"/>
+
+                <EditText
+                    android:background="@drawable/rectangle_bg_amber_500_radius_5"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_email_address"
+                    android:id="@+id/etEmail"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_57pxh"
+                    android:layout_marginStart="@dimen/_60pxh"
+                    android:layout_marginTop="@dimen/_53pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_12pxv"
+                    android:paddingEnd="@dimen/_18pxh"
+                    android:paddingStart="@dimen/_18pxh"
+                    android:paddingTop="@dimen/_12pxv"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black_900"
+                    style="@style/etSolidRounded" tools:ignore="Autofill"/>
+                <EditText
+                    android:background="@drawable/rectangle_bg_amber_500_radius_5"
+                    android:ellipsize="end"
+                    android:hint="@string/lbl_password"
+                    android:id="@+id/etPassword"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_57pxh"
+                    android:layout_marginStart="@dimen/_60pxh"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:layout_width="match_parent"
+                    android:paddingBottom="@dimen/_12pxv"
+                    android:paddingEnd="@dimen/_18pxh"
+                    android:paddingStart="@dimen/_18pxh"
+                    android:paddingTop="@dimen/_12pxv"
+                    android:singleLine="true"
+                    android:textColorHint="@color/black_900"
+                    style="@style/etSolidRounded" tools:ignore="Autofill"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtForgotpassword"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_61pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="wrap_content"
+                    android:singleLine="true"
+                    style="@style/txtPoppinsregular14_1" android:text="@string/msg_forgot_password"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnLogIn"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_44pxv"
+                    android:layout_marginTop="@dimen/_18pxv"
+                    android:layout_width="@dimen/_210pxh"
+                    android:paddingBottom="@dimen/_8pxv"
+                    android:paddingEnd="@dimen/_30pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_8pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_log_in2"
+                    android:textAllCaps="false"
+                    style="@style/btnSolidRounded" tools:text="@string/lbl_log_in2"/>
+                <LinearLayout android:gravity="center_vertical"
+                    android:id="@+id/linearRowconfirmation"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_31pxv"
+                    android:layout_width="wrap_content" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtConfirmation"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        style="@style/txtPoppinsregular15" android:text="@string/msg_don_t_have_an_account"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtRegister"
+                        android:layout_gravity="top"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_13pxh"
+                        android:layout_width="wrap_content"
+                        android:singleLine="true"
+                        style="@style/txtPoppinssemibold15" android:text="@string/lbl_register"/>
+                </LinearLayout>
+                <View android:id="@+id/viewViewTwo"
+                    android:layout_height="@dimen/_354pxh" android:layout_width="@dimen/_259pxh"/>
+            </LinearLayout>
+        </FrameLayout>
+</LinearLayout>
+

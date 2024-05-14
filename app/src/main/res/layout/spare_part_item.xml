@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearUserprofile"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_160pxh"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_10pxv"
+        android:paddingTop="@dimen/_10pxv" >
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/_160pxh"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_10pxv"
+        android:paddingTop="@dimen/_10pxv" style="@style/groupStylecornerRadius">
+        <ImageView android:id="@+id/imageSparePart"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_139pxh"
+            android:layout_width="@dimen/_148pxh"
+            android:scaleType="fitXY"
+            android:background="@drawable/img_screenshot_2021_11_16"
+            tools:ignore="ContentDescription" />
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtSparepart"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:text="@{userprofileRowModel.txtWaterPumpText}"
+            style="@style/txtPoppinsmedium12" tools:text="dft_water_pump_aw4126"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_13pxh"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:text="@{userprofileRowModel.txtOmrText}"
+            style="@style/txtPoppinssemibold12" tools:text="omr_187"/>
+        <LinearLayout android:gravity="center_vertical"
+            android:id="@+id/linearRow"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_5pxv"
+            android:layout_marginTop="@dimen/_13pxv"
+            android:layout_width="wrap_content" android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:drawablePadding="@dimen/_6pxh"
+                android:drawableStart="@drawable/img_edit"
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnEditButton"
+                android:layout_gravity="center_vertical"
+                android:layout_height="@dimen/_28pxv"
+                android:layout_width="60dp"
+                android:paddingBottom="@dimen/_5pxv"
+                android:paddingEnd="@dimen/_5pxh"
+                android:paddingStart="@dimen/_5pxh"
+                android:paddingTop="@dimen/_5pxv"
+                android:singleLine="true"
+                android:text="Edit"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_2" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:drawablePadding="@dimen/_5pxh"
+                android:drawableStart="@drawable/img_delete"
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnDeleteButton"
+                android:layout_gravity="center_vertical"
+                android:layout_height="@dimen/_28pxv"
+                android:layout_marginStart="@dimen/_5pxh"
+                android:layout_width="80dp"
+                android:paddingBottom="@dimen/_5pxv"
+                android:paddingEnd="@dimen/_6pxh"
+                android:paddingStart="@dimen/_6pxh"
+                android:paddingTop="@dimen/_5pxv"
+                android:singleLine="true"
+                android:text="Delete"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded_1" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="160dp"
+    android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/linearColumn"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+        <ImageView android:id="@+id/image240f392269139"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_118pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_width="@dimen/_154pxh"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnButtonText"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_13pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_13pxv" android:singleLine="true"
+            android:text="@string/lbl_body_parts"
+            android:textAllCaps="false"
+            style="@style/btnSolidRoundedBottomCorner"/>
+    </LinearLayout>
+</LinearLayout>

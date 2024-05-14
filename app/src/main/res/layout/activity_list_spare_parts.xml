@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" style="@style/groupStylewhite_A700">
+    <LinearLayout android:id="@+id/linearColumnarrowDownOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_gravity="top|center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:contentInsetStart="0dp" style="@style/groupStyleamber_500_4">
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRowoutputOne"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15pxv"
+                android:layout_marginEnd="@dimen/_23pxh"
+                android:layout_marginStart="@dimen/_23pxh"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:weightSum="100"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+                    <ImageView android:id="@+id/imageArrowdown"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="20dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_arrow_down"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_arrow_down"/>
+                </FrameLayout>
+                <TextView
+                    android:id="@+id/txtAutoassist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_marginBottom="@dimen/_2pxv"
+                    android:layout_weight="60"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_spare_parts"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    style="@style/txtPoppinsbold16"
+                    />
+                <RelativeLayout
+                    android:layout_width="@dimen/_35pxh"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+
+                    <ImageView
+                        android:id="@+id/profilePic"
+                        android:layout_width="@dimen/_35pxh"
+                        android:layout_height="@dimen/_30pxh"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="0dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/baseline_person_24"
+                        android:backgroundTint="@color/white"
+                        tools:ignore="ContentDescription"
+                        />
+                    <ImageView
+                        android:id="@+id/cart"
+                        android:layout_height="@dimen/_35pxh"
+                        android:layout_width="@dimen/_35pxh"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="0dp"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/img_shopping_cart_5"
+                        tools:ignore="ContentDescription"
+                        style="@style/txtPoppinsbold12"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout android:gravity="center_horizontal"
+            android:id="@+id/frameStackrewindOne"
+            android:layout_height="wrap_content" android:layout_width="match_parent">
+
+            <LinearLayout android:id="@+id/linearColumnrewind"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_17pxv"
+                android:paddingEnd="@dimen/_13pxh"
+                android:paddingStart="@dimen/_13pxh"
+                android:paddingTop="@dimen/_17pxv" style="@style/groupStylewhite_1">
+
+
+
+
+                    <androidx.appcompat.widget.SearchView
+                        android:background="@drawable/rectangle_border_gray_300_01_radius_10"
+                        android:gravity="center_vertical"
+                        android:id="@+id/searchViewSearch"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="match_parent"
+                        android:theme="@style/searchViewsearch"
+                        app:iconifiedByDefault="false"
+                        app:queryBackground="@android:color/transparent"
+                        app:queryHint="@string/lbl_search_parts"
+                        app:searchIcon="@drawable/img_search" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linearRowfilterOne"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+                <ImageButton android:id="@+id/btnFilterOne"
+                    android:layout_gravity="bottom"
+                    android:layout_height="@dimen/_40pxh"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_width="@dimen/_40pxh"
+                    android:paddingHorizontal="@dimen/_4pxh"
+                    android:paddingVertical="@dimen/_4pxv"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/filter1"
+                    tools:ignore="ContentDescription"/>
+
+                <View android:background="@color/blue_gray_100_01"
+                    android:id="@+id/lineLineoneOne"
+                    android:layout_gravity="bottom"
+                    android:layout_height="@dimen/_38pxv"
+                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_width="@dimen/_1pxh"/>
+                <com.google.android.material.slider.RangeSlider
+                    android:id="@+id/range_slider_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stepSize="100"
+                    android:valueFrom="0"
+                    android:valueTo="100000"
+                    app:haloRadius="0dp"
+                    app:labelBehavior="visible"
+                    app:thumbColor="@color/white"
+                    app:thumbRadius="@dimen/_12pxh"
+                    app:thumbStrokeColor="@color/amber_500_02"
+                    app:thumbStrokeWidth="2dp"
+                    app:tickVisible="false"
+                    app:trackColorActive="@color/amber_500_02"
+                    app:trackColorInactive="@color/gray_300"
+                    app:trackHeight="@dimen/_4pxh"
+                    app:values="@array/initial_price_range_value" />
+            </LinearLayout>
+
+                <View android:background="@color/blue_gray_100"
+                    android:id="@+id/lineLinesixOne"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_1pxv"
+                    android:layout_marginTop="@dimen/_17pxv" android:layout_width="@dimen/_398pxh"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/recyclerUserprofile"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_35pxv"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="match_parent"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+            </LinearLayout>
+
+        </FrameLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="?android:attr/windowBackground"
+                app:backgroundTint="@color/white_A700"
+                app:menu="@menu/bottom_nav_bar"
+                app:itemTextColor="@drawable/bottom_nav_icon_selector"
+                app:itemIconTint="@drawable/bottom_nav_icon_selector"/>
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+
+</LinearLayout>

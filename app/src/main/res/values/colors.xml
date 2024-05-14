@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+<color name="gray_50_01">#f7f8f9</color>
+  <color name="red_700">#c9453a</color>
+  <color name="blue_gray_50">#eeeff2</color>
+  <color name="amber_500_02">#f7c910</color>
+  <color name="amber_500_01">#f6c70f</color>
+  <color name="black_900_3f">#3f000000</color>
+  <color name="gray_50">#fafafa</color>
+  <color name="black_900">#000000</color>
+  <color name="red_A400">#fd003a</color>
+  <color name="red_700_01">#ed1c24</color>
+  <color name="black_900_bf">#bf000000</color>
+  <color name="black_900_26">#26000000</color>
+  <color name="gray_600">#707477</color>
+  <color name="gray_700">#666666</color>
+  <color name="gray_400">#c2c1c6</color>
+  <color name="blue_gray_100">#d2d6da</color>
+  <color name="amber_500">#e3b912</color>
+  <color name="indigo_50">#e4e8f2</color>
+  <color name="gray_300">#e5e5e5</color>
+  <color name="gray_300_02">#dedede</color>
+  <color name="gray_300_01">#e4e4e4</color>
+  <color name="indigo_100">#c0ccd9</color>
+  <color name="black_900_19">#19000000</color>
+  <color name="white_A700">#ffffff</color>
+  <color name="indigo_800">#2e3192</color>
+  <color name="gray_700_01">#656470</color>
+
+    <color name="gray_600_02">#6e6e6e</color>
+    <color name="gray_600_01">#787e81</color>
+    <color name="blue_gray_400">#8a8a8a</color>
+    <color name="amber_300">#ffcc4d</color>
+    <color name="red_400">#e04c4a</color>
+    <color name="gray_200">#f0f0f0</color>
+    <color name="orange_50">#fff9e1</color>
+    <color name="blue_gray_700">#535865</color>
+    <color name="black_900_14">#14000000</color>
+
+
+
+  <color name="indigo_100_01">#c2ccd8</color>
+
+  <color name="white_A700_19">#19ffffff</color>
+
+  <color name="blue_gray_100_01">#d4d5d9</color>
+
+  <color name="pink_A200">#ff3e6d</color>
+  <color name="indigo_50_01">#e7e7f2</color>
+
+  <color name="blue_gray_50_01">#eeeff2</color>
+
+  <color name="gray_900">#0d0530</color>
+  <color name="gray_900_01">#1a1a1c</color>
+
+  <color name="blue_gray_700_01">#535865</color>
+
+
+</resources>

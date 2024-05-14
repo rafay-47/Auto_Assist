@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout"
+    android:layout_height="150dp"
+    android:layout_width="150dp"
+    android:layout_margin="5dp"
+    android:weightSum="10"
+    android:orientation="vertical" style="@style/groupStyleamber_500_3">
+    <ImageView android:id="@+id/imageWorkshopImage"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="7.5"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription" tools:src="@drawable/img_photo_157007167"/>
+    <TextView android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtWorkshopName"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:text="@{userprofileRowModel.txtWorkshopName}"
+        style="@style/txtPoppinssemibold11" tools:text="@string/msg_auto_king_workshop"/>
+    <TextView android:ellipsize="end"
+        android:id="@+id/txtLocationText"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:singleLine="true"
+        android:text="@{userprofileRowModel.txtLocationText}"
+        style="@style/txtPoppinsmedium10" tools:text="@string/lbl_muscat_oman"/>
+</LinearLayout>

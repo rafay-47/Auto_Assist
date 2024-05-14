@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gridscreenshot2RowModel" type="com.trendysapplication.app.modules.workshopdetailpage.data.model.Gridscreenshot2RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackscreenshot"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/_6pxv"
+        android:paddingEnd="@dimen/_24pxh"
+        android:paddingStart="@dimen/_24pxh"
+        android:paddingTop="@dimen/_6pxv" style="@style/groupStylecornerRadius">
+        <ImageView android:id="@+id/imageScreenshot2021"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_66pxh"
+            android:layout_width="@dimen/_68pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_screenshot_2021_11_12}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_screenshot_2021_11_12"/>
+    </FrameLayout>
+</layout>

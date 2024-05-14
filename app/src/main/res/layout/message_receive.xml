@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/rectangle_bg_gray_600_01_radius_15">
+
+        <TextView
+            android:id="@+id/sentmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="I need Your guidance."
+            android:textSize="15sp"
+            android:textColor="@color/white_A700"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

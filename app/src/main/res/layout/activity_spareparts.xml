@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout android:id="@+id/frameStackoutputOne"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageImage"
+            android:layout_gravity="top|center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" android:background="@drawable/img_group_129"/>
+        <LinearLayout android:id="@+id/linearColumnoutput"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/groupStylegray_50"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_gravity="top|center"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:contentInsetStart="0dp" style="@style/groupStyleamber_500_4">
+                <LinearLayout android:gravity="center_vertical"
+                    android:id="@+id/linearRowoutputOne"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_15pxv"
+                    android:layout_marginEnd="@dimen/_23pxh"
+                    android:layout_marginStart="@dimen/_23pxh"
+                    android:layout_marginTop="@dimen/_15pxv"
+                    android:weightSum="100"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20">
+
+                    </FrameLayout>
+                    <TextView
+                        android:id="@+id/txtAutoassist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_marginBottom="@dimen/_2pxv"
+                        android:layout_weight="60"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/lbl_spare_parts"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:scaleType="fitXY"
+                        style="@style/txtPoppinsbold16"
+                        />
+                    <RelativeLayout
+                        android:layout_width="@dimen/_35pxh"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="20">
+
+                        <ImageView
+                            android:id="@+id/btnOrders"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:text="Your Orders"
+                            android:textAllCaps="false"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="@color/white_A700"
+                            android:background="@drawable/pngegg"
+                            />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+                    <LinearLayout
+                        
+                        android:id="@+id/linearColumn240f39226"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="50dp"
+                        android:paddingEnd="@dimen/_11pxh"
+                        android:paddingStart="@dimen/_11pxh">
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:gravity="center_horizontal"
+                            android:id="@+id/recyclerColumn"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_2pxh"
+                            android:layout_width="match_parent"
+                            android:nestedScrollingEnabled="false"
+                            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                            app:spanCount="2"
+                            itemSpace="@{@dimen/_10pxh}"
+                            tools:itemCount="6" tools:listitem="@layout/row_column"/>
+
+                    </LinearLayout>
+        </LinearLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottom_app_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="?android:attr/windowBackground"
+                app:backgroundTint="@color/white_A700"
+                app:menu="@menu/bottom_nav_bar"
+                app:itemTextColor="@drawable/bottom_nav_icon_selector"
+                app:itemIconTint="@drawable/bottom_nav_icon_selector"/>
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+
+</LinearLayout>
